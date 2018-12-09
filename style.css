@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+p,table{
+    font-size: 20px;
+}
+div{
+    float: left;
+    height: 720px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+span{
+    color:black;
+    font-weight: bold;
+}
+textarea{
+    font-size: 15px;
+    color: black;
+}
+input{
+    height: 30px;
+    widows: 50px;
+    font-size: 15px;
+    color: black;
+}
+button{
+    display: block;
+    background-color: #1a237e;
+    font-size: 20px;
+    border:0;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    letter-spacing: .9px;
+}
+.sender button{
+    background-color: darkorange;
+}
+.generate{
+    margin: 20px auto;
+    
+}
+.sender{
+    width: 50%;
+    background-color: #1a237e;
+}
+.reciver{
+    width: 50%;
+    background-color: darkorange;
+}

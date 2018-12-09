@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RSA</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1 style="color: black">RSA Algorithm</h1>
+    <div class="sender">
+        <h1>SENDER</h1><hr>
+        <p>Enter first primary number:<input type="number" class="ps" style="margin-left: 37px"></p>
+        <p>Enter second primary number:<input type="number" class="qs" style="margin-left: 5px"></p>
+        <button type="button" class="generate_sender" style="margin: 0 auto">Generate key</button>
+        <p>Public key is: <span class="first_num_public_s"></span><span class="second_num-public_s"></span></p>
+        <p>Private key is: <span class="first_num_private_s"></span><span class="second_num_private_s"></span></p>
+        <p style="margin-top: 50px">Enter Your Message:</p>
+        <textarea class="message" rows="5" cols="40"></textarea>
+        <button type="button" class="encryption">Encryption and Send</button>
+    </div>
+
+    <div class="reciver">
+        <h1>RECIVER</h1><hr>
+       <p>Enter first primary number:<input type="number" class="pr" style="margin-left: 37px"></p>
+        <p>Enter second primary number:<input type="number" class="qr" style="margin-left: 5px"></p>
+        <button type="button" class="generate_reciver" style="margin: 0 auto">Generate key</button>
+        <p>Public key is: <span class="first_num_public_r"></span><span class="second_num-public_r"></span></p>
+        <p>Private key is: <span class="first_num_private_r"></span><span class="second_num_private_r"></span></p>
+        <p style="margin-top: 50px">Encrypted Message:</p>
+        <textarea class="encrypted_message" rows="5" cols="40"></textarea>
+        <button type="button" class="decryption">Decryption</button>
+        <textarea class="decrypted_tex" rows="5" cols="40" style="margin-top: 20px"></textarea>
+    </div>
+
+
+
+<script src="query.js"></script>
+    <script src="app.js"></script>
+    
+
+</body>
+
+</html>
